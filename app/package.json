@@ -1,0 +1,14 @@
+{
+  "name": "devops-aws-project",
+  "version": "1.0.0",
+  "description": "DevOps AWS EKS CI/CD Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Auon Ali",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

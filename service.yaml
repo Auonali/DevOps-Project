@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: project01svc
+spec:
+  selector:
+    app: node
+  type: LoadBalancer
+  ports:
+    - port: 80
+        targetPort: 3000
+
